@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "47176A48-9C9B-4949-887E-26D119C5472F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/GitHubTagApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - 284aeaa3425a049a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - 2779a468007dfc96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GitHubTag.Workflow) -&gt; GitHubTag.ActionItemView in closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - 6ec383f114ca7b6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - da93956f8af7f71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GitHubTag.Workflow) -&gt; GitHubTag.ActionItemView in closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView, GitHubTag.TagItemView)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - 707a94eb2f26655b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;GitHubTag.TagItemView&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - dbcd3c9fe31809e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GitHubTag.Workflow) -&gt; GitHubTag.ActionItemView in closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;GitHubTag.TagItemView&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - 17ad1ab5fe2ef5d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(GitHubTag.TagItemView, GitHubTag.TagItemView)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "2B2FFC69-0603-419F-B807-E9771D763BA5 - be57f2eb7d522c51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GitHubTag.Workflow) -&gt; GitHubTag.ActionItemView in closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;GitHubTag.Workflow&gt;, Swift.Int, GitHubTag.ActionItemView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onDisappear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(GitHubTag.TagItemView, GitHubTag.TagItemView)&gt;&gt;, SwiftUI.Divider, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.buttonStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PrimitiveButtonStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt; in GitHubTag.PopoverContentView.body.getter : some"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/GitHubTagApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35B2B7FC-45FE-469D-ACCA-34DA86DFB454"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/ActionAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchWorkflows()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/ActionAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchWorkflows()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF - c7d8979ad8e42f26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF - c7d8979ad8e42fc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "B35DA7D6-DEF6-41AD-B32E-3CE2626581EF - 7ac72d8a671ce2cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/ActionAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchWorkflows()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - c7d8979ad8e42f26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 4cda05955e6a1d9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 4cda05955e6a1d9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 7ac72d8a671ce228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - c7d8979ad8e42fc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 7ac72d8a671ce2cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "1CB5181E-17C6-4726-8AFE-D527C3C1D1F7 - 4cda05955e6a1d78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/ActionAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchWorkflows()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce2ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "8F2F8046-8454-4AA5-AE74-81BDC1D1A8C4 - 7ac72d8a671ce2ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "556">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/ActionAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchWorkflows()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E - 7ac72d8a671ce385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E - 7ac72d8a671ce385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "960">
+               </Location>
+               <Location
+                  uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E - 7ac72d8a671ce385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "996">
+               </Location>
+               <Location
+                  uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E - 7ac72d8a671ce4dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1316">
+               </Location>
+               <Location
+                  uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E - 7ac72d8a671ce4dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E - 7ac72d8a671ce247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "591BA05E-6C49-4809-A891-346CE9FFF04E - 7ac72d8a671ce385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68A12F43-625D-45FC-9FC1-4636BDEF2776"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/ActionAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchWorkflows()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68A12F43-625D-45FC-9FC1-4636BDEF2776 - 7ac72d8a671ce4fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1364">
+               </Location>
+               <Location
+                  uuid = "68A12F43-625D-45FC-9FC1-4636BDEF2776 - 7ac72d8a671ce41a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1268">
+               </Location>
+               <Location
+                  uuid = "68A12F43-625D-45FC-9FC1-4636BDEF2776 - 7ac72d8a671ce385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "68A12F43-625D-45FC-9FC1-4636BDEF2776 - 7ac72d8a671ce3c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.WorkflowViewModel.fetchWorkflows() -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/ActionAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "688">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C82411A-BF62-4F23-A9D7-E6B443EE0539"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/TagAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchTag(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B158647A-78E7-4014-AAAD-23ACE78DBA9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/TagAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchTag(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "678E18FF-ED09-49EC-87E1-73F4C7CAF6BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/TagAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchTag(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "175D7AFC-CD83-4261-B6CE-E867DA72EF8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/TagAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchTag(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCFDAFF3-613A-4266-B3E4-4ECB6E3664B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/TagAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "fetchTag(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C5CC504-6FD2-42F8-B5C2-58DFADA6D02E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubTag/TagAPIModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchTag(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C5CC504-6FD2-42F8-B5C2-58DFADA6D02E - 1126f961a4f27b35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.TagViewModel.fetchTag(for: Swift.String) -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/TagAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "792">
+               </Location>
+               <Location
+                  uuid = "4C5CC504-6FD2-42F8-B5C2-58DFADA6D02E - 78631caa44cf2434"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GitHubTag.TagViewModel.fetchTag(for: Swift.String) -&gt; ()"
+                  moduleName = "GitHubTag"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubTag/TagAPIModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

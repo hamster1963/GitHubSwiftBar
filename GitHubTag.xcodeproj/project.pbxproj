@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432F03D22B103DF500432242 /* TagAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F03D12B103DF500432242 /* TagAPIModel.swift */; };
 		43610BDA2B0EFA4D00AB876B /* GitHubTagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43610BD92B0EFA4D00AB876B /* GitHubTagApp.swift */; };
-		43610BDC2B0EFA4D00AB876B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43610BDB2B0EFA4D00AB876B /* ContentView.swift */; };
 		43610BDE2B0EFA4E00AB876B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43610BDD2B0EFA4E00AB876B /* Assets.xcassets */; };
 		43610BE12B0EFA4E00AB876B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43610BE02B0EFA4E00AB876B /* Preview Assets.xcassets */; };
+		43610BE92B0F37A400AB876B /* TagItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43610BE82B0F37A400AB876B /* TagItemView.swift */; };
+		43610BEB2B0F3E4500AB876B /* ActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43610BEA2B0F3E4500AB876B /* ActionItem.swift */; };
+		43E92D9D2B0FAFAA0040491B /* ActionAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E92D9C2B0FAFAA0040491B /* ActionAPIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432F03D12B103DF500432242 /* TagAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagAPIModel.swift; sourceTree = "<group>"; };
+		4339CF342B10933F000C8B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		43610BD62B0EFA4D00AB876B /* GitHubTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43610BD92B0EFA4D00AB876B /* GitHubTagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTagApp.swift; sourceTree = "<group>"; };
-		43610BDB2B0EFA4D00AB876B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43610BDD2B0EFA4E00AB876B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43610BE02B0EFA4E00AB876B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43610BE22B0EFA4E00AB876B /* GitHubTag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubTag.entitlements; sourceTree = "<group>"; };
+		43610BE82B0F37A400AB876B /* TagItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagItemView.swift; sourceTree = "<group>"; };
+		43610BEA2B0F3E4500AB876B /* ActionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItem.swift; sourceTree = "<group>"; };
+		43E92D9C2B0FAFAA0040491B /* ActionAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionAPIModel.swift; sourceTree = "<group>"; };
+		43E92D9E2B0FBA280040491B /* GitHubTagRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubTagRelease.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +60,16 @@
 		43610BD82B0EFA4D00AB876B /* GitHubTag */ = {
 			isa = PBXGroup;
 			children = (
+				4339CF342B10933F000C8B45 /* Info.plist */,
+				43E92D9E2B0FBA280040491B /* GitHubTagRelease.entitlements */,
 				43610BD92B0EFA4D00AB876B /* GitHubTagApp.swift */,
-				43610BDB2B0EFA4D00AB876B /* ContentView.swift */,
 				43610BDD2B0EFA4E00AB876B /* Assets.xcassets */,
 				43610BE22B0EFA4E00AB876B /* GitHubTag.entitlements */,
 				43610BDF2B0EFA4E00AB876B /* Preview Content */,
+				43610BE82B0F37A400AB876B /* TagItemView.swift */,
+				43610BEA2B0F3E4500AB876B /* ActionItem.swift */,
+				43E92D9C2B0FAFAA0040491B /* ActionAPIModel.swift */,
+				432F03D12B103DF500432242 /* TagAPIModel.swift */,
 			);
 			path = GitHubTag;
 			sourceTree = "<group>";
@@ -139,8 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43610BDC2B0EFA4D00AB876B /* ContentView.swift in Sources */,
+				43E92D9D2B0FAFAA0040491B /* ActionAPIModel.swift in Sources */,
+				432F03D22B103DF500432242 /* TagAPIModel.swift in Sources */,
 				43610BDA2B0EFA4D00AB876B /* GitHubTagApp.swift in Sources */,
+				43610BE92B0F37A400AB876B /* TagItemView.swift in Sources */,
+				43610BEB2B0F3E4500AB876B /* ActionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +293,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GitHubTag/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitHubTag/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,13 +313,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GitHubTag/GitHubTag.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GitHubTag/GitHubTagRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GitHubTag/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitHubTag/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
