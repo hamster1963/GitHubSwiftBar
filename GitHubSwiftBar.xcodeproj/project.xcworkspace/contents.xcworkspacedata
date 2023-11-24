@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/hamster/Developer/Swift/GitHubTag/GitHubTag/GitHubSwiftBar.xcodeproj">
    </FileRef>
 </Workspace>

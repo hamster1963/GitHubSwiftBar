@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		432F03D12B103DF500432242 /* TagAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagAPIModel.swift; sourceTree = "<group>"; };
 		4339CF342B10933F000C8B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		43610BD62B0EFA4D00AB876B /* GitHubTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43610BD62B0EFA4D00AB876B /* GitHubSwiftBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSwiftBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43610BD92B0EFA4D00AB876B /* GitHubTagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTagApp.swift; sourceTree = "<group>"; };
 		43610BDD2B0EFA4E00AB876B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43610BE02B0EFA4E00AB876B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		43610BD72B0EFA4D00AB876B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43610BD62B0EFA4D00AB876B /* GitHubTag.app */,
+				43610BD62B0EFA4D00AB876B /* GitHubSwiftBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43610BD52B0EFA4D00AB876B /* GitHubTag */ = {
+		43610BD52B0EFA4D00AB876B /* GitHubSwiftBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43610BE52B0EFA4E00AB876B /* Build configuration list for PBXNativeTarget "GitHubTag" */;
+			buildConfigurationList = 43610BE52B0EFA4E00AB876B /* Build configuration list for PBXNativeTarget "GitHubSwiftBar" */;
 			buildPhases = (
 				43610BD22B0EFA4D00AB876B /* Sources */,
 				43610BD32B0EFA4D00AB876B /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = GitHubTag;
+			name = GitHubSwiftBar;
 			productName = GitHubTag;
-			productReference = 43610BD62B0EFA4D00AB876B /* GitHubTag.app */;
+			productReference = 43610BD62B0EFA4D00AB876B /* GitHubSwiftBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43610BD12B0EFA4D00AB876B /* Build configuration list for PBXProject "GitHubTag" */;
+			buildConfigurationList = 43610BD12B0EFA4D00AB876B /* Build configuration list for PBXProject "GitHubSwiftBar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43610BD52B0EFA4D00AB876B /* GitHubTag */,
+				43610BD52B0EFA4D00AB876B /* GitHubSwiftBar */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43610BD12B0EFA4D00AB876B /* Build configuration list for PBXProject "GitHubTag" */ = {
+		43610BD12B0EFA4D00AB876B /* Build configuration list for PBXProject "GitHubSwiftBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43610BE32B0EFA4E00AB876B /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43610BE52B0EFA4E00AB876B /* Build configuration list for PBXNativeTarget "GitHubTag" */ = {
+		43610BE52B0EFA4E00AB876B /* Build configuration list for PBXNativeTarget "GitHubSwiftBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43610BE62B0EFA4E00AB876B /* Debug */,
