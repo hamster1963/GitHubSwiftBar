@@ -134,7 +134,7 @@ struct PopoverContentView: View {
 
             Divider()
             HStack {
-                Text("Version 0.0.2")
+                Text("Version 0.0.3")
                     .opacity(0.5)
                     .font(.caption)
                 Spacer()
