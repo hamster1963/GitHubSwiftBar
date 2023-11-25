@@ -53,7 +53,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("Popover 显示")
         GlobalState.shared.isPopoverVisible = true
         if let button = statusItem?.button {
-            workflowViewModel.startFetchingWorkflows(interval: 5) // 开始定时获取数据
+            workflowViewModel.startFetchingWorkflows(interval: 1) // 开始定时获取数据
             popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
         }
     }
