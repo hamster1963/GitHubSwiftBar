@@ -11,7 +11,6 @@ import SwiftUI
 @main
 struct GitHubTagApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-
     var body: some Scene {
         Settings {
             EmptyView()
@@ -119,8 +118,17 @@ struct PopoverContentView: View {
                     .font(.caption)
             }
             VStack(spacing: 5) {
-                TagItemView(text: "HomeDash", tagViewModel: TagViewModel())
-                TagItemView(text: "order-new-next", tagViewModel: TagViewModel())
+                TagItemView(text: "hamster1963/HomeDash", tagViewModel: TagViewModel())
+                TagItemView(text: "hamster1963/order-new-next", tagViewModel: TagViewModel())
+                TagItemView(text: "hamster1963/home-everything-watcher", tagViewModel: TagViewModel())
+                TagItemView(text: "hamster1963/home-bark-push-go", tagViewModel: TagViewModel())
+                TagItemView(text: "hamster1963/kes-order-next", tagViewModel: TagViewModel())
+                TagItemView(text: "hamster1963/hamster-blog-new", tagViewModel: TagViewModel())
+                TagItemView(text: "KES-IT/KES-Speed-Backend", tagViewModel: TagViewModel())
+                TagItemView(text: "KES-IT/Food-Order-Backend", tagViewModel: TagViewModel())
+                TagItemView(text: "KES-IT/Speed-Cron", tagViewModel: TagViewModel())
+                TagItemView(text: "pandora-next/deploy", tagViewModel: TagViewModel())
+                TagItemView(text: "vercel/next.js", tagViewModel: TagViewModel())
             }
 
             Divider()

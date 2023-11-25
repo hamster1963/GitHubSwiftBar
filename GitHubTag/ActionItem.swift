@@ -44,9 +44,9 @@ struct ActionItemView: View {
             return "hourglass"
         case "in_progress":
             return "hourglass"
-        case "completed":
+        case "success":
             return "checkmark.circle"
-        case "error":
+        case "failure":
             return "xmark.circle"
         default:
             return ""
@@ -59,9 +59,9 @@ struct ActionItemView: View {
             return .orange // 或表示加载中的任何颜色
         case "in_progress":
             return .blue // 或表示加载中的任何颜色
-        case "completed":
+        case "success":
             return .green
-        case "error":
+        case "failure":
             return .red
         default:
             return .indigo
@@ -76,9 +76,9 @@ struct ActionItemView: View {
                 return .orange.opacity(opacity)
             case "in_progress":
                 return .blue.opacity(opacity)
-            case "completed":
+            case "success":
                 return .green.opacity(opacity)
-            case "error":
+            case "failure":
                 return .red.opacity(opacity)
             default:
                 return .gray.opacity(opacity) // 默认值也许需要调整
