@@ -129,6 +129,7 @@ struct PopoverContentView: View {
                 TagItemView(text: "KES-IT/Speed-Cron", tagViewModel: TagViewModel())
                 TagItemView(text: "pandora-next/deploy", tagViewModel: TagViewModel())
                 TagItemView(text: "vercel/next.js", tagViewModel: TagViewModel())
+                TagItemView(text: "gogf/gf", tagViewModel: TagViewModel())
             }
 
             Divider()
