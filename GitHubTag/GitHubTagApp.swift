@@ -122,7 +122,6 @@ struct PopoverContentView: View {
                 TagItemView(text: "hamster1963/order-new-next", tagViewModel: TagViewModel())
                 TagItemView(text: "hamster1963/home-everything-watcher", tagViewModel: TagViewModel())
                 TagItemView(text: "hamster1963/home-bark-push-go", tagViewModel: TagViewModel())
-                TagItemView(text: "hamster1963/kes-order-next", tagViewModel: TagViewModel())
                 TagItemView(text: "hamster1963/hamster-blog-new", tagViewModel: TagViewModel())
                 TagItemView(text: "KES-IT/KES-Speed-Backend", tagViewModel: TagViewModel())
                 TagItemView(text: "KES-IT/Food-Order-Backend", tagViewModel: TagViewModel())
