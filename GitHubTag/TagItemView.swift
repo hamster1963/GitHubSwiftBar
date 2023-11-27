@@ -16,7 +16,9 @@ struct TagItemView: View {
 
     var body: some View {
         HStack {
-            Text(text.split(separator: Character("/"))[1])
+//            Text(text.split(separator: Character("/"))[1])
+//                .fontWeight(.medium)
+            Text(text)
                 .fontWeight(.medium)
 
             Spacer() // Pushes the badge to the right

@@ -29,15 +29,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var workflowViewModel = WorkflowViewModel()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        // 创建状态栏项
+        setupStatusItem()
+        setupPopover()
+    }
+
+    private func setupStatusItem() {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
         if let button = statusItem?.button {
             button.image = NSImage(systemSymbolName: "cabinet", accessibilityDescription: "Taskbar App")
             button.action = #selector(togglePopover(_:))
         }
+    }
 
-        // 设置弹出视图的内容
+    private func setupPopover() {
         popover.contentViewController = NSHostingController(rootView: PopoverContentView(viewModel: workflowViewModel))
     }
 
@@ -50,116 +55,139 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func showPopover() {
-        print("Popover 显示")
         GlobalState.shared.isPopoverVisible = true
         if let button = statusItem?.button {
-            workflowViewModel.startFetchingWorkflows(interval: 1) // 开始定时获取数据
+            workflowViewModel.startFetchingWorkflows(interval: 1)
             popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
         }
     }
 
     func closePopover() {
-        print("Popover 隐藏")
         GlobalState.shared.isPopoverVisible = false
-        workflowViewModel.timer?.cancel() // 停止定时器
+        workflowViewModel.timer?.cancel()
         popover.performClose(nil)
     }
 }
 
 struct PopoverContentView: View {
-    @State private var isHovering = false // 用于跟踪鼠标悬停状态的状态变量
+    @State private var isHovering = false
     @ObservedObject var viewModel: WorkflowViewModel
-    @Environment(\.colorScheme) var colorScheme //
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            HStack(alignment: .firstTextBaseline) {
-                Text("User:")
-                    .opacity(0.5)
-                    .font(.caption)
-                    .frame(width: 50, alignment: .leading) // 给定宽度并左对齐
-
-                Spacer() // 使用间隔器将两个文本视图分开
-
-                Text("Hasmter1963") // 使用来自 viewModel 的动态数据
-                    .font(.caption)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 5)
-                    .padding(.vertical, 3)
-                    .background(Color.blue.opacity(colorScheme == .dark ? 0.6 : 1))
-                    .cornerRadius(3)
-                    .foregroundColor(.white)
-                    .frame(width: 100, alignment: .trailing) // 给定宽度并右对齐
-            }
-
+            userSection
             Divider()
+            recentActionsSection
+            Divider()
+            tagsSection
+            Divider()
+            versionSection
+            settingsAndQuitSection
+        }
+        .padding()
+        .frame(width: 400)
+    }
+
+    private var userSection: some View {
+        HStack(alignment: .firstTextBaseline) {
+            Text("User:")
+                .opacity(0.5)
+                .font(.caption)
+                .frame(width: 50, alignment: .leading)
+
+            Spacer()
+
+            Text("Hasmter1963")
+                .font(.caption)
+                .fontWeight(.bold)
+                .padding(.horizontal, 5)
+                .padding(.vertical, 3)
+                .background(Color.blue.opacity(colorScheme == .dark ? 0.6 : 1))
+                .cornerRadius(3)
+                .foregroundColor(.white)
+                .frame(width: 100, alignment: .trailing)
+        }
+    }
+
+    private var recentActionsSection: some View {
+        VStack(spacing: 5) {
             HStack {
                 Text("Recent Actions")
                     .opacity(0.5)
                     .font(.caption)
                 Spacer()
             }
-            VStack(spacing: 5) {
-                ForEach(viewModel.workflows) { workflow in
-                    ActionItemView(workflow: workflow)
-                }
+            ForEach(viewModel.workflows) { workflow in
+                ActionItemView(workflow: workflow)
             }
             .onAppear {
-                viewModel.startFetchingWorkflows(interval: 5) // 开始定时获取数据
+                viewModel.startFetchingWorkflows(interval: 5)
             }
             .onDisappear {
-                viewModel.timer?.cancel() // 停止定时器
+                viewModel.timer?.cancel()
             }
+        }
+    }
 
-            Divider()
+    private var tagsSection: some View {
+        VStack(spacing: 5) {
             HStack {
                 Text("Tags")
                     .opacity(0.5)
                     .font(.caption)
-            }
-            VStack(spacing: 5) {
-                TagItemView(text: "hamster1963/HomeDash", tagViewModel: TagViewModel())
-                TagItemView(text: "hamster1963/order-new-next", tagViewModel: TagViewModel())
-                TagItemView(text: "hamster1963/home-everything-watcher", tagViewModel: TagViewModel())
-                TagItemView(text: "hamster1963/home-bark-push-go", tagViewModel: TagViewModel())
-                TagItemView(text: "hamster1963/hamster-blog-new", tagViewModel: TagViewModel())
-                TagItemView(text: "KES-IT/KES-Speed-Backend", tagViewModel: TagViewModel())
-                TagItemView(text: "KES-IT/Food-Order-Backend", tagViewModel: TagViewModel())
-                TagItemView(text: "KES-IT/Speed-Cron", tagViewModel: TagViewModel())
-                TagItemView(text: "pandora-next/deploy", tagViewModel: TagViewModel())
-                TagItemView(text: "vercel/next.js", tagViewModel: TagViewModel())
-                TagItemView(text: "gogf/gf", tagViewModel: TagViewModel())
-            }
-
-            Divider()
-            HStack {
-                Text("Version 0.0.5")
-                    .opacity(0.5)
-                    .font(.caption)
                 Spacer()
             }
-
-            VStack {
-                Button(action: {}) {
-                    HStack {
-                        Image(systemName: "gear")
-                        Text("Settings...")
-                    }
-                }
-                .buttonStyle(PlainButtonStyle())
-            }
-            VStack {
-                Button(action: {NSApplication.shared.terminate(nil)}) {
-                    HStack {
-                        Image(systemName: "power")
-                        Text("Quit")
-                    }
-                }
-                .buttonStyle(PlainButtonStyle())
+            ForEach(tagsData, id: \.self) { tagText in
+                TagItemView(text: tagText, tagViewModel: TagViewModel())
             }
         }
-        .padding()
-        .frame(width: 350)
+    }
+
+    private var versionSection: some View {
+        HStack {
+            Text("Version 0.0.6")
+                .opacity(0.5)
+                .font(.caption)
+            Spacer()
+        }
+    }
+
+    private var settingsAndQuitSection: some View {
+        VStack(spacing:5) {
+            Button(action: {}) {
+                HStack {
+                    Image(systemName: "gear")
+                    Text("Settings...")
+                    Spacer()
+                }
+            }
+            .buttonStyle(PlainButtonStyle())
+            Button(action: { NSApplication.shared.terminate(nil) }) {
+                HStack {
+                    Image(systemName: "power")
+                    Text("Quit")
+                    Spacer()
+                }
+            }
+            .buttonStyle(PlainButtonStyle())
+        }
+    }
+
+    private var tagsData: [String] {
+        return [
+            "hamster1963/HomeDash",
+            "hamster1963/order-new-next",
+            "hamster1963/home-everything-watcher",
+            "hamster1963/home-bark-push-go",
+            "hamster1963/hamster-blog-new",
+            "KES-IT/KES-Speed-Backend",
+            "KES-IT/Food-Order-Backend",
+            "KES-IT/Speed-Cron",
+            "pandora-next/deploy",
+            "vercel/next.js",
+            "gogf/gf"
+        ]
     }
 }
 
