@@ -27,6 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
     var popover = NSPopover()
     var workflowViewModel = WorkflowViewModel()
+    var statusViewModel = StatusViewModel()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         setupStatusItem()
@@ -43,7 +44,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func setupPopover() {
-        popover.contentViewController = NSHostingController(rootView: PopoverContentView(viewModel: workflowViewModel))
+        popover.contentViewController = NSHostingController(rootView: PopoverContentView(viewModel: workflowViewModel, statusModel: statusViewModel))
     }
 
     @objc func togglePopover(_ sender: AnyObject?) {
@@ -58,6 +59,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         GlobalState.shared.isPopoverVisible = true
         if let button = statusItem?.button {
             workflowViewModel.startFetchingWorkflows(interval: 1)
+            statusViewModel.startFetchingStatus(interval: 5)
             popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
         }
     }
@@ -70,13 +72,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 }
 
 struct PopoverContentView: View {
-    @State private var isHovering = false
     @ObservedObject var viewModel: WorkflowViewModel
+    @ObservedObject var statusModel: StatusViewModel // 使用 StateObject
     @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             userSection
+            Divider()
+            statusSection
             Divider()
             recentActionsSection
             Divider()
@@ -109,6 +113,34 @@ struct PopoverContentView: View {
                 .frame(width: 100, alignment: .trailing)
         }
     }
+    
+    private var statusSection: some View {
+        HStack(alignment: .firstTextBaseline) {
+            Text("连接状态:")
+                .opacity(0.5)
+                .font(.caption)
+                .frame(width: 50, alignment: .leading)
+            
+            Spacer()
+
+            HStack(spacing: 3) {
+                Image(systemName: statusModel.status ? "checkmark.circle.fill" : "xmark.circle.fill")
+                    .foregroundColor(statusModel.status ? .green : .red)
+                
+                Text(statusModel.status ? "已连接" : "未连接")
+                    .font(.caption)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 5)
+                    .padding(.vertical, 3)
+                    .background(statusModel.status ? Color.green.opacity(colorScheme == .dark ? 0.6 : 1):Color.red.opacity(colorScheme == .dark ? 0.6 : 1))
+                    .cornerRadius(3)
+                    .foregroundColor(.white)
+            }
+            .frame(width: 100, alignment: .trailing)
+        }
+    }
+
+    
 
     private var recentActionsSection: some View {
         VStack(spacing: 5) {
@@ -120,12 +152,6 @@ struct PopoverContentView: View {
             }
             ForEach(viewModel.workflows) { workflow in
                 ActionItemView(workflow: workflow)
-            }
-            .onAppear {
-                viewModel.startFetchingWorkflows(interval: 5)
-            }
-            .onDisappear {
-                viewModel.timer?.cancel()
             }
         }
     }
@@ -181,6 +207,7 @@ struct PopoverContentView: View {
             "hamster1963/home-everything-watcher",
             "hamster1963/home-bark-push-go",
             "hamster1963/hamster-blog-new",
+            "hamster1963/GitHubSwiftBar",
             "KES-IT/KES-Speed-Backend",
             "KES-IT/Food-Order-Backend",
             "KES-IT/Speed-Cron",

@@ -13,6 +13,7 @@
 		43610BE12B0EFA4E00AB876B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43610BE02B0EFA4E00AB876B /* Preview Assets.xcassets */; };
 		43610BE92B0F37A400AB876B /* TagItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43610BE82B0F37A400AB876B /* TagItemView.swift */; };
 		43610BEB2B0F3E4500AB876B /* ActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43610BEA2B0F3E4500AB876B /* ActionItem.swift */; };
+		43AD995D2B1D78FF0072E7C3 /* StatusAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AD995C2B1D78FF0072E7C3 /* StatusAPIModel.swift */; };
 		43E92D9D2B0FAFAA0040491B /* ActionAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E92D9C2B0FAFAA0040491B /* ActionAPIModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		43610BE22B0EFA4E00AB876B /* GitHubTag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubTag.entitlements; sourceTree = "<group>"; };
 		43610BE82B0F37A400AB876B /* TagItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagItemView.swift; sourceTree = "<group>"; };
 		43610BEA2B0F3E4500AB876B /* ActionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItem.swift; sourceTree = "<group>"; };
+		43AD995C2B1D78FF0072E7C3 /* StatusAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusAPIModel.swift; sourceTree = "<group>"; };
 		43E92D9C2B0FAFAA0040491B /* ActionAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionAPIModel.swift; sourceTree = "<group>"; };
 		43E92D9E2B0FBA280040491B /* GitHubTagRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubTagRelease.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				43610BEA2B0F3E4500AB876B /* ActionItem.swift */,
 				43E92D9C2B0FAFAA0040491B /* ActionAPIModel.swift */,
 				432F03D12B103DF500432242 /* TagAPIModel.swift */,
+				43AD995C2B1D78FF0072E7C3 /* StatusAPIModel.swift */,
 			);
 			path = GitHubTag;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				43E92D9D2B0FAFAA0040491B /* ActionAPIModel.swift in Sources */,
 				432F03D22B103DF500432242 /* TagAPIModel.swift in Sources */,
+				43AD995D2B1D78FF0072E7C3 /* StatusAPIModel.swift in Sources */,
 				43610BDA2B0EFA4D00AB876B /* GitHubTagApp.swift in Sources */,
 				43610BE92B0F37A400AB876B /* TagItemView.swift in Sources */,
 				43610BEB2B0F3E4500AB876B /* ActionItem.swift in Sources */,
