@@ -172,7 +172,7 @@ struct PopoverContentView: View {
 
     private var versionSection: some View {
         HStack {
-            Text("Version 0.0.6")
+            Text("Version 0.0.7")
                 .opacity(0.5)
                 .font(.caption)
             Spacer()
