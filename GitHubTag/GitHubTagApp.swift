@@ -67,6 +67,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func closePopover() {
         GlobalState.shared.isPopoverVisible = false
         workflowViewModel.timer?.cancel()
+        statusViewModel.timer?.cancel()
         popover.performClose(nil)
     }
 }
