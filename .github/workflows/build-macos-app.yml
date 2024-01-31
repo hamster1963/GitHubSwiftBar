@@ -33,7 +33,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
 
   build:
-    runs-on: macos-13
+    runs-on: macos-14
     outputs:
       release_body: ${{ steps.git-cliff.outputs.content }}
 
